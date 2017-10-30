@@ -80,9 +80,6 @@ class Cart(db.Model):
     listings = db.relationship('Listing', backref='cart_Listings', lazy='dynamic')
 
 
-class IBRAHIM(db.Model):
-    id = id = db.Column(db.Integer, primary_key=True)
-    name =  db.Column(db.String(50))
 
 
 @app.route('/')
