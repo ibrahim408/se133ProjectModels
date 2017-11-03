@@ -9,6 +9,8 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://modeling:blog@localhost
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+# nigggA
+
 class Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), index=True, unique=True)
