@@ -10,6 +10,8 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 # nigggA
+# bruh im on my own branch now whats really good G
+# fuck em up ibrahim
 
 class Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
